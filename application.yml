@@ -1,0 +1,15 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-atguigu-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-atguigu-test
+#必需UTF-8保存要不然服务器读取配置会乱码
